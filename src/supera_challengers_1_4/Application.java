@@ -30,5 +30,9 @@ public class Application {
     equalityInDiference.getEqualityDiferencePairs(2);
     System.out.println("Vezes em que a diferença entre pares são iguais ao valor alvo: "
     + equalityInDiference.getVerify());
+
+    /* Third challenge */
+    System.out.println("--------------------------------------------------------------");
+    System.out.println("4º)");
   }
 }
