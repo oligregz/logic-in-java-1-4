@@ -1,6 +1,7 @@
 package supera_challengers_1_4;
 
 import supera_challengers_1_4.first_challenger.OddPairs;
+import supera_challengers_1_4.fourth_challenger.Decoder;
 import supera_challengers_1_4.second_challenger.ValueBanknotes;
 import supera_challengers_1_4.third_challenger.EqualityInDiference;
 
@@ -34,5 +35,7 @@ public class Application {
     /* Third challenge */
     System.out.println("--------------------------------------------------------------");
     System.out.println("4º)");
+    Decoder decoder = new Decoder();
+    decoder.decoding();
   }
 }
